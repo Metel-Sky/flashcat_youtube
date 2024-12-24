@@ -18,6 +18,8 @@ class LoginPage extends StatelessWidget{
               size: 60,
               color: Theme.of(context).colorScheme.primary,
             ),
+            SizedBox(height: 50,),
+            Text('Welcom back, you`ve been missed!',style: TextStyle(color: Theme.of(context).colorScheme.inversePrimary,fontSize: 20)),
           ],
         ),
       ),
